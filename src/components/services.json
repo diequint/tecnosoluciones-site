@@ -1,0 +1,35 @@
+{
+	"heroTitle": "Tecnosoluciones",
+	"servicesTitle": "Nuestros servicios",
+	"services": [
+		{
+			"title": "Mantenimiento Preventivo y Correctivo",
+			"content": "Mantenimiento, diagnóstico y reparación de equipos de impresión, computadoras personales, estaciones de trabajo y servidores, realizado por técnicos calificados."
+		},
+		{
+			"title": "Cotización, Venta e Instalación de Equipos",
+			"content": "Adaptado a las necesidades específicas del cliente, con garantía en partes e instalación. Incluye configuración personalizada de sistemas y software."
+		},
+		{
+			"title": "Asesoría y Consultoría Técnica",
+			"content": "Soporte telefónico, en línea y presencial para resolución de problemas, optimización de equipos e implementación de soluciones de hardware y software."
+		},
+		{
+			"title": "Recuperación de Datos / Gestión de Información",
+			"content": "Servicios de recuperación de datos, gestión de bases de datos, copias de seguridad físicas y almacenamiento remoto."
+		},
+		{
+			"title": "Desarrollo y Mantenimiento de Software",
+			"content": "Soluciones personalizadas adaptadas a las necesidades, incluyendo proyectos multiplataforma, así como el mantenimiento y actualización de software existente."
+		},
+		{
+			"title": "Gestión de Plataformas de Comercio Electrónico",
+			"content": "Creación, soporte y gestión de plataformas de Amazon Seller (México, Estados Unidos y Canadá) y Mercado Libre (solo México)."
+		},
+		{
+			"title": "Servicios en la Nube",
+			"content": "Servicios de integración empresarial como correo electrónico, calendario, mensajería corporativa y más."
+		}
+	]	
+}
+	
