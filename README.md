@@ -34,9 +34,9 @@ This project is a single-page application for Tecnosoluciones, built with React 
 	npm run dev
 	```
 
-## Deployment
+## Build
 	```sh
-	npm run deploy
+	npm run build
 	```
 
 For AWS S3, configure your AWS credentials and use the provided GitHub Actions workflow.
