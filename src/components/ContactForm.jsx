@@ -21,7 +21,7 @@ const ContactForm = () => {
     return newErrors;
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     const validationErrors = validate();
     if (Object.keys(validationErrors).length > 0) {
@@ -30,6 +30,29 @@ const ContactForm = () => {
       setErrors({});
       setIsSubmitted(true);
       console.log('Form submitted:', formData);
+
+      const formDataToSend = new FormData(e.target);
+      formDataToSend.append("access_key", "1b2f4d32-67fa-4085-9f79-91c553de487a");
+
+      const object = Object.fromEntries(formDataToSend);
+      const json = JSON.stringify(object);
+
+      const res = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json"
+        },
+        body: json
+      });
+
+      const result = await res.json();
+      if (res.ok) {
+        console.log("Success", result);
+      } else {
+        console.error("Error", result);
+      }
+
       setFormData({ name: '', email: '', phone: '', message: '' });
     }
   };

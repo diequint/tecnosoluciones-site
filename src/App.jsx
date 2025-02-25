@@ -115,9 +115,10 @@ export default function SinglePageApp() {
 			{/* Sección Contacto */}
 			<div 
 			id="Contacto"
-			className="min-h-screen flex items-center justify-center p-8"
+			className="min-h-screen flex-col items-center justify-center p-8"
 			>
-			<ContactForm />
+				<ContactForm />
+				<p className="text-center">O si lo prefieres, envíanos un correo a <span className="font-black">contacto@tecnosoluciones.xyz</span></p>
 			</div>
 		</div>
 		<div className="bg-gray-800 text-white text-center py-4 flex justify-around">
